@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-25.402083, 28.294250]
+      },
+      "properties": {
+        "name": "Mandela Sports Grounds"
+      }
+    }
+  ]
+}

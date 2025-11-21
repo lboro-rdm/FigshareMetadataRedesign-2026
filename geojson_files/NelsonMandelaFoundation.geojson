@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-26.148528, 28.058194]
+      },
+      "properties": {
+        "name": "Nelson Mandela Foundation"
+      }
+    }
+  ]
+}

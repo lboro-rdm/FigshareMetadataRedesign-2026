@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4998, 31.2397]
+      },
+      "properties": {
+        "name": "Lujiazui, Shanghai"
+      }
+    }
+  ]
+}

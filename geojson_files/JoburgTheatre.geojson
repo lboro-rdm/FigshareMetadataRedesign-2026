@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-26.191222, 28.038583]
+      },
+      "properties": {
+        "name": "Joburg Theatre"
+      }
+    }
+  ]
+}

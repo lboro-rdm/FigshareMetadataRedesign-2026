@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4074, 39.9042]
+      },
+      "properties": {
+        "name": "Beijing"
+      }
+    }
+  ]
+}

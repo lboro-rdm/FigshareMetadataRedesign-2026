@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-25.716667, 28.370750]
+      },
+      "properties": {
+        "name": "Nelson Mandela Park"
+      }
+    }
+  ]
+}
