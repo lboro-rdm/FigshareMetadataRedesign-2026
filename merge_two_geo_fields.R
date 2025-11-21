@@ -4,7 +4,7 @@ library(vroom)
 
 # ABOUT -------------------------------------------------------------------
 
-# A visual examination of the batch metadata file showed two geospatial fields: Geographical information, which is the new geospatial field introduced by Figshare in 2025 (works with geojson), and Geographic location, which is a field used by the Urban Graphic Archive - I think! 
+# A visual examination of the batch metadata file showed two geospatial fields: Geographical information, which is the new geospatial field introduced by Figshare in 2025 (works with geojson), and Geographic location, which is a field used by the Urban Graphic Archive! 
 
 # This script is to clean the Geographic location and move it to the Geographical information field.
 
