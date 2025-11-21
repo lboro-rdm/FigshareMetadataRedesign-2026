@@ -11,7 +11,7 @@ library(vroom)
 
 # SCRIPT START ------------------------------------------------------------
 
-data <- vroom("batch_download_20251120.csv") %>% # This file was downloaded on 2025-11-20, and includes all items, public and private
+data <- vroom("batch_download_20251121.csv") %>% # This file was downloaded on 2025-11-21, and includes all items, public and private
   clean_names()
 
 filtered_data <- data %>% 
@@ -48,15 +48,10 @@ write_csv(geo_location_data, "geo_location_data_20251121.csv")
 
 # CHECK USE OF GEOGRAPHICAL INFORMATION FIELD -----------------------------
 
-names(data)
+geo_records_data <- read.csv("GI_records.csv") %>% 
+  clean_names()
 
-distinct_geo_info <- data %>% 
-  distinct(geographical_information)
-
-filtered_data2 <- data %>% 
-  filter(!is.na(geographical_information))
-
-merged_data2 <- filtered_data2 %>% 
+merged_data2 <- geo_records_data %>% 
   left_join(user_data %>% select(account_id, author_name, account_status),
             by = "account_id")
 
